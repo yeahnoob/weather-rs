@@ -509,7 +509,7 @@ fn main() {
     let city = if !matches.free.is_empty() {
         matches.free.connect(" ")
     } else {
-        "Beijing".to_string()
+        "Chengdu".to_string()
     };
 
     let mut url = Url::parse(BASE_URL).unwrap();
